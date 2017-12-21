@@ -21,5 +21,3 @@ for smt in semestres:
     creditos += sum(smt['Crédito'])
     print(round(notas/creditos, 2))
     print('\n')
-
-# print(round(notas/creditos, 2))
